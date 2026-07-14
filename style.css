@@ -1,0 +1,109 @@
+/* --- ------ Universal Selector starts here ------ --- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* --- ------ Universal Selector ends here ------ --- */
+/* --- ------ Container for max-width starts here ------ --- */
+.container {
+    max-width: 1366px;
+    margin: auto;
+    padding: 0 20px;
+}
+/* --- ------ Container for max-width ends here ------ --- */
+/* --- ------ Common Button start here ------ --- */
+.common-button-one {
+    background-color:#1D4ED8;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.common-button-one:hover {
+    box-shadow: 0px 0px 10px black;
+}
+/* --- ------ Common Button start here ------ --- */
+/* --- ------ Nav starts here ------ --- */
+/* "nav-parent" is a command center in Nav bar. */
+.nav-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0.5px solid rgb(222, 222, 222);
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
+}
+/* "nav-parent-logo" class shows the area of logo. */
+.nav-parent-logo {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+/* "nav-parent-logo-source" provides properties & characteristics of the logo. */
+.nav-parent-logo-source {
+    height: 40%;
+    width: auto;
+}
+/* "nav-parent-menu" is marking the area of influence. */
+.nav-parent-menu {
+    justify-content: space-between;
+    align-items: center;
+
+    border: 0.5px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    padding: 8px 8px;
+} 
+/* "nav-parent-menu-items" instructs elements where are designated area (position) & elements space-between. */
+.nav-parent-menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* list-style: none; */
+    gap: 8px;
+    margin: 0px;
+    padding: 0px;
+}
+/* "nav-parent-menu-items li" controls elements characteristics. */
+.nav-parent-menu-items li {
+    list-style: none;
+    cursor: pointer;
+
+    padding: 8px 8px;
+    /* border: 0.5px solid rgb(222, 222, 222); */
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+
+    font-size: 16px;
+}
+/* "nav-parent-menu-items li:hover" focus on behavior. */
+.nav-parent-menu-items li:hover {
+    background: #1D4ED8;
+    color: white;
+
+    font-weight: bold;
+}
+/* "nav-parent-button" is parent of the button section.
+/* "nav-parent-button-source" is button's characteristics. */
+/* .nav-parent-button-source {
+    background-color:#1D4ED8;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} */
+/* "nav-parent-button-source:hover" focus on button's behavior. */
+/* .nav-parent-button-source:hover {
+    box-shadow: 0px 0px 10px black;
+} */ */
+/* --- ------ Nav ends here ------ --- */
+/* --- ------ Header starts here ------ --- */
