@@ -3,16 +3,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
     font-family: "Inter", sans-serif;
 }
 /* --- ------ Universal Selector ends here ------ --- */
+
 /* --- ------ Container for max-width starts here ------ --- */
 .container {
     max-width: 1366px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 20px;
 }
 /* --- ------ Container for max-width ends here ------ --- */
+
 /* --- ------ Common Button start here ------ --- */
 .common-button-one {
     background-color:#1D4ED8;
@@ -27,7 +30,8 @@
 .common-button-one:hover {
     box-shadow: 0px 0px 10px black;
 }
-/* --- ------ Common Button start here ------ --- */
+/* --- ------ Common Button ends here ------ --- */
+
 /* --- ------ Nav starts here ------ --- */
 /* "nav-parent" is a command center in Nav bar. */
 .nav-parent {
@@ -89,21 +93,57 @@
 
     font-weight: bold;
 }
-/* "nav-parent-button" is parent of the button section.
-/* "nav-parent-button-source" is button's characteristics. */
-/* .nav-parent-button-source {
-    background-color:#1D4ED8;
-    padding: 16px 16px;
-    border: none;
-    border-radius: 5px;
-
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-} */
-/* "nav-parent-button-source:hover" focus on button's behavior. */
-/* .nav-parent-button-source:hover {
-    box-shadow: 0px 0px 10px black;
-} */ */
 /* --- ------ Nav ends here ------ --- */
+
 /* --- ------ Header starts here ------ --- */
+.header-parent {
+    position: relative;
+    height: 700px;
+    width: 100%;
+
+    background-image: url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-parent-overlay {
+    z-index: 1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header-parent-text {
+    z-index: 2;
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-parent-text-body {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.header-parent-text-body h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.header-parent-text-body h1 em {
+    font-style: italic;
+}
+.header-parent-text-body p {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+/* --- ------ Header ends here ------ --- */
