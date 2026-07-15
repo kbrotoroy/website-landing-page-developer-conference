@@ -32,6 +32,41 @@
 }
 /* --- ------ Common Button ends here ------ --- */
 
+/* --- ------ Common Card starts here ------ --- */
+/*main-section-one ------ --- */
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.speaker-card img {
+    display: block;
+    object-fit: cover;
+    
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.speaker-card h3 {
+    margin-top: 8px;
+    margin-bottom: 8px 0;
+}
+.speaker-card h5 {
+    color:#1D4ED8;
+    margin-top: 16px;
+}
+.speaker-card p {
+    color: gray;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+/* --- ------ Common Card ends here ------ --- */
+
+
 /* --- ------ Nav starts here ------ --- */
 /* "nav-parent" is a command center in Nav bar. */
 .nav-parent {
@@ -147,3 +182,33 @@
     margin-bottom: 30px;
 }
 /* --- ------ Header ends here ------ --- */
+
+/* --- ------ Main starts here ------ --- */
+/*main-section-one ------ --- */
+.main-section-one {
+    position: relative;
+    height: 1050px;
+    width: 100%;
+
+    border: 0.5px solid rgb(222, 222, 222);
+    padding: 24px 0px 24px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.main-section-one-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 70px;
+}
+.main-section-one-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 24px auto;
+}
+
+/*main-section-one ------ --- */
+
+/* --- ------ Main ends here ------ --- */
