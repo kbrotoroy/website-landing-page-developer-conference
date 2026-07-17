@@ -36,6 +36,25 @@
 .common-button-one:hover {
     box-shadow: 0px 0px 10px black;
 }
+/* common-button-two ------ --- */
+.common-button-two {
+    cursor: pointer;
+    
+    width: 100%;
+    padding: 16px 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color:#1D4ED8;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+.common-button-two:hover {
+    box-shadow: 0px 0px 10px black;
+}
 /* pricing-button ------ --- */
 .pricing-button {
     cursor: pointer;
@@ -350,5 +369,117 @@
     
     gap: 24px;
     margin: 24px auto;
+}
+
+/*main-section-three ------ --- */
+.main-section-three {
+    position: relative;
+    width: 100%;
+
+    padding: 24px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.main-section-three-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+    width: 100%;
+    padding: 40px 0;
+}
+.main-section-three-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 24px;
+    margin: 24px auto;
+}
+/*left-wing*/
+.main-section-three-body-left-wing {
+    border: 0.5px solid rgb(222, 222, 222);     
+    border-radius: 16px;
+
+    padding: 16px;
+}
+.left-wing-header hr {
+    margin: 16px -16px;
+
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.left-wing-body {
+    position:relative
+    margin: 8px 8px;
+}
+.left-wing-body-box-content {
+    padding: 24px;
+
+    border: 0.5px solid rgb(222, 222, 222);
+    border-radius: 8px;
+}
+.left-wing-body-box-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+
+    margin: 16px -24px;
+}
+.box-content-source {
+    padding: 16px 16px;
+}
+.box-content-source hr {
+    border:none;
+    border-top:1px solid #ddd;
+
+    margin:12px -16px;
+}
+.Questions {
+    margin-bottom: 12px;
+}
+.Answer {
+    margin-top: 12px;
+}
+/*right-wing*/
+.main-section-three-body-right-wing {
+    border: 0.5px solid rgb(222, 222, 222);     
+    border-radius: 16px;
+
+    padding: 16px;
+}
+.right-wing-header hr {
+    margin: 16px -16px;
+
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.right-wing-body {
+    border: 0.5px solid rgb(222, 222, 222);     
+    border-radius: 16px;
+
+    padding: 16px;
+}
+.form-section {
+    margin-bottom: 40px;
+}
+.form-section-items {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 16px;
+}
+.form-section-items label {
+    margin-bottom: 8px;
+
+    font-weight: 600;
+}
+.form-section-items input, 
+.form-section-items textarea {
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    font-size: 16px;;
 }
 /* --- ------ Main ends here ------ --- */
