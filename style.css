@@ -206,9 +206,10 @@
     justify-content: space-between;
     align-items: center;
 
-    border: 0.5px solid rgb(222, 222, 222);
+    border: 0px 0px 0.5px 0px solid rgb(222, 222, 222);
     padding: 8px 16px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 9px black;
 }
 /* "nav-parent-logo" class shows the area of logo. */
 .nav-parent-logo {
@@ -483,3 +484,66 @@
     font-size: 16px;;
 }
 /* --- ------ Main ends here ------ --- */
+/* --- ------ Footer starts here ------ --- */
+footer {
+    background-color: #0D1B2A;
+    color: #ddd;
+}
+footer hr {
+    margin: 24px 0;
+
+    border:none;
+    border-top: 0.5px solid #ddd;
+}
+.footer-parent-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 16px;
+    width: 100%;
+    padding: 40px 0;
+
+}
+.footer-parent-one-text {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+    gap: 16px;
+}
+.footer-parent-one-logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 16px;
+    padding: 16px;
+
+    font-size:32px;
+    color:white;
+    margin:0 12px;
+}
+.footer-parent-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.legal-position ul {
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+
+    gap: 32px;
+    width: 100%;
+    padding: 40px 0;
+}
+/* --- ------ Footer ends here ------ --- */
